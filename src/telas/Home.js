@@ -13,7 +13,7 @@ export default function Topo() {
 
 const estilos = StyleSheet.create({
     topo:{
-        backgroundColor:'#F6F6F6',
+        backgroundColor:'#F5F5F5',
         padding:16,
     },
     imagem:{
@@ -24,10 +24,12 @@ const estilos = StyleSheet.create({
         marginTop: 24,
         fontSize:26,
         lineHeight:42,
-        fontWeight: 'bold'
+        fontWeight: 'bold',
+        color:	'#000000',
     },
     leganda:{
         fontSize:16,
-        lineHeight:26
+        lineHeight:26,
+        color:	'#000000',
     }
 });
