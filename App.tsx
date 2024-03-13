@@ -1,8 +1,8 @@
 import React from "react";
-import { Text } from "react-native";
+import Home from "./src/telas/Home";
 
 function App(){
-  return <Text>Hellow Word</Text>
+  return <Home />
 }
 
 export default App;
